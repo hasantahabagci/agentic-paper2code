@@ -46,9 +46,9 @@ Rules for the normalized text:
 - **Keep section numbers** exactly as printed. Provenance annotations
   throughout the pipeline refer to them.
 - **Keep tables as Markdown tables**, including footnotes.
-- **Keep figure captions**, marked `![Figure 3](figures/fig3.png)` when you
-  extracted the image, or `**Figure 3.** <caption>` when you did not. Captions
-  often carry hyperparameters.
+- **Keep figure captions**, as an image reference when you extracted the image
+  and as `**Figure 3.** <caption>` when you did not. Captions often carry
+  hyperparameters, so never drop them.
 - **Drop** the bibliography, acknowledgements, author affiliations, ethics and
   reproducibility boilerplate, and page furniture. Keep a citation's key in the
   text (`[23]` or `(Vaswani et al., 2017)`) so references stay traceable.
