@@ -1,0 +1,24 @@
+# Configuration for <paper title>.
+#
+# Every value carries its provenance:
+#   # paper §X            stated in the paper, at that location
+#   # external: <source>  taken from elsewhere, logged in notes.md
+#   # UNSPECIFIED - <why> not in the paper; chosen for the stated reason
+#
+# A value with no comment is a defect.
+
+model:
+  # architecture, dimensions, layer counts
+
+data:
+  # dataset, splits, preprocessing, tokenizer
+
+training:
+  # optimizer, schedule, steps, regularization
+  seed: 42                # UNSPECIFIED - not stated; fixed for reproducibility
+
+eval:
+  # metrics, decoding parameters, checkpoint selection
+
+runtime:
+  device: cuda            # UNSPECIFIED - environment, not a paper setting

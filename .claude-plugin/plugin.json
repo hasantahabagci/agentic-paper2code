@@ -1,0 +1,25 @@
+{
+  "$schema": "https://json.schemastore.org/claude-code-plugin-manifest.json",
+  "name": "agentic-paper2code",
+  "displayName": "agentic-paper2code",
+  "version": "0.1.0",
+  "description": "Reproduce a research paper as a working code repository: ingest, plan, design, analyze, implement, verify, review. No API keys, no orchestration scripts.",
+  "author": {
+    "name": "Hasan Taha Bagci",
+    "url": "https://github.com/hasantahabagci"
+  },
+  "homepage": "https://github.com/hasantahabagci/agentic-paper2code",
+  "repository": "https://github.com/hasantahabagci/agentic-paper2code",
+  "license": "Apache-2.0",
+  "keywords": [
+    "research",
+    "reproducibility",
+    "paper-implementation",
+    "machine-learning",
+    "arxiv",
+    "code-generation"
+  ],
+  "commands": "./.claude/commands/p2c",
+  "agents": "./.claude/agents",
+  "skills": "./.claude/skills"
+}

@@ -1,0 +1,14 @@
+{
+  "name": "hasantahabagci",
+  "owner": {
+    "name": "Hasan Taha Bagci",
+    "url": "https://github.com/hasantahabagci"
+  },
+  "plugins": [
+    {
+      "name": "agentic-paper2code",
+      "source": "./",
+      "description": "Reproduce a research paper as a working code repository, using the coding agent you already have."
+    }
+  ]
+}
