@@ -1,18 +1,23 @@
 cff-version: 1.2.0
 title: agentic-paper2code
 message: >-
-  If you use this toolkit, please cite the original Paper2Code paper listed
-  under references. Citing this repository as well is welcome but secondary.
+  If you use this toolkit, please cite both this repository and the Paper2Code
+  paper it is built on, listed under references.
 type: software
 authors:
   - given-names: Hasan Taha
     family-names: Bagci
-    orcid: null
+version: 0.1.0
+date-released: '2026-09-09'
+url: https://github.com/hasantahabagci/agentic-paper2code
 repository-code: https://github.com/hasantahabagci/agentic-paper2code
 abstract: >-
   A ten-stage pipeline that reproduces a research paper as a working code
   repository, written as Markdown stage prompts executed by a coding agent
-  rather than as an API-driven program.
+  rather than as an API-driven program. It adapts the planning, analysis and
+  coding decomposition of Paper2Code and adds ingestion, configuration
+  provenance, frozen interfaces, execution-based verification, fidelity review
+  and packaging.
 keywords:
   - reproducibility
   - research-software

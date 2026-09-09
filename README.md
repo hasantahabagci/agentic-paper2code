@@ -150,9 +150,20 @@ also made it possible to add the stages an API pipeline cannot do: ingestion,
 environment setup, smoke runs, debugging, fidelity review and packaging. See
 [NOTICE](NOTICE) for the full list of changes.
 
-If this work is useful in a publication, cite the original paper:
+## Citing
+
+If this toolkit is useful in a publication, cite both — this repository for the
+pipeline you ran, and the Paper2Code paper for the method it is built on:
 
 ```bibtex
+@software{bagci2026agenticpaper2code,
+  title  = {agentic-paper2code: Reproducing Research Papers with Coding Agents},
+  author = {Bagci, Hasan Taha},
+  year   = {2026},
+  url    = {https://github.com/hasantahabagci/agentic-paper2code},
+  note   = {Built on Paper2Code (Seo et al., ICLR 2026)}
+}
+
 @inproceedings{seo2026paper2code,
   title     = {Paper2Code: Automating Code Generation from Scientific Papers
                in Machine Learning},
