@@ -1,0 +1,38 @@
+cff-version: 1.2.0
+title: agentic-paper2code
+message: >-
+  If you use this toolkit, please cite the original Paper2Code paper listed
+  under references. Citing this repository as well is welcome but secondary.
+type: software
+authors:
+  - given-names: Hasan Taha
+    family-names: Bagci
+    orcid: null
+repository-code: https://github.com/hasantahabagci/agentic-paper2code
+abstract: >-
+  A ten-stage pipeline that reproduces a research paper as a working code
+  repository, written as Markdown stage prompts executed by a coding agent
+  rather than as an API-driven program.
+keywords:
+  - reproducibility
+  - research-software
+  - paper-implementation
+  - coding-agents
+license: Apache-2.0
+references:
+  - type: conference-paper
+    title: >-
+      Paper2Code: Automating Code Generation from Scientific Papers in
+      Machine Learning
+    authors:
+      - given-names: Minju
+        family-names: Seo
+      - given-names: Jinheon
+        family-names: Baek
+      - given-names: Seongyun
+        family-names: Lee
+      - given-names: Sung Ju
+        family-names: Hwang
+    collection-title: International Conference on Learning Representations (ICLR)
+    year: 2026
+    url: https://arxiv.org/abs/2504.17192
