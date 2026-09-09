@@ -1,0 +1,26 @@
+agentic-paper2code
+Copyright 2026 Hasan Taha Bagci
+
+This product includes software and prompt material derived from Paper2Code
+(PaperCoder), Copyright 2025 Minju Seo, Jinheon Baek, Seongyun Lee and
+Sung Ju Hwang, licensed under the Apache License, Version 2.0.
+
+Original project: https://github.com/going-doer/Paper2Code
+Original paper:   "Paper2Code: Automating Code Generation from Scientific
+                   Papers in Machine Learning", ICLR 2026,
+                   https://arxiv.org/abs/2504.17192
+
+Portions of the stage prompts in prompts/ and the review rubric in
+prompts/08-review.md are adapted from the planning, analysis, coding and
+evaluation prompts of that project.
+
+Changes made in this derivative work:
+  - The Python/OpenAI orchestration layer was removed entirely. Stages are
+    plain Markdown instructions executed by a coding agent.
+  - Stages were re-scoped for agents that can read, write and execute files:
+    ingestion, environment setup, smoke runs, debugging, packaging and a
+    fidelity review pass were added.
+  - Prompts were rewritten to produce durable on-disk artifacts and a
+    resumable state file instead of in-memory message trajectories.
+  - Provenance annotations, tensor shape contracts and reproduction target
+    tables are additions not present in the original prompts.

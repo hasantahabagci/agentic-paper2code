@@ -1,0 +1,14 @@
+# Reproduction workspaces produced by the toolkit
+.p2c/
+*_repo/
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Editors and OS
+.DS_Store
+.idea/
+*.swp
