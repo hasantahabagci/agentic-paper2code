@@ -24,7 +24,7 @@ say()  { printf '%s\n' "$*"; }
 step() { printf '  %s\n' "$*"; }
 die()  { printf 'error: %s\n' "$*" >&2; exit 1; }
 
-cleanup() { [ -n "$TMPDIR_CLONE" ] && rm -rf "$TMPDIR_CLONE"; }
+cleanup() { if [ -n "$TMPDIR_CLONE" ]; then rm -rf "$TMPDIR_CLONE"; fi; return 0; }
 trap cleanup EXIT
 
 while [ $# -gt 0 ]; do
